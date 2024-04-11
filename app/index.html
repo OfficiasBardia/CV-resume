@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/app/app.css">
+    <title>Cv With tailwindcss</title>
+</head>
+
+<body class="font-lato bg-zinc-50">
+    <!-- SVG -->
+    <svg class="hidden">
+        <symbol id="bars" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M6.429 9.75 2.25 12l4.179 2.25m0-4.5 5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0 4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0-5.571 3-5.571-3" />
+        </symbol>
+    </svg>
+
+
+    <!-- Mobile first -->
+
+    <!-- Header Mobile -->
+
+    <div class="h-64 bg-zinc-100">
+
+        <div class="flex items-center justify-between p-5">
+
+            <div>
+                <h1 class="text-xl text-zinc-700 font-bold">Lorem (Name)</h1>
+            </div>
+            <div>
+                <a href="#">
+                    <svg class="w-6 h-6 text-zinc-700">
+                        <use href="#bars"></use>
+                    </svg>
+                </a>
+            </div>
+
+
+        </div>
+
+        <main class="container  w-[90%] p-0 m-auto mt-5 rounded-md shadow-2xl bg-yellow-200/60">
+
+            <div class="pt-10">
+                <img class="w-[150px] h-[150px] rounded-full m-auto border-[7px] border-zinc-100"
+                    src="/app/imgs/progile.webp" alt="img">
+            </div>
+
+            <div class="text-center pt-5">
+                <h2 class="text-zinc-700 text-lg">
+                    I'm (Name)
+                </h2>
+            </div>
+
+            <div class="w-[90%] h-[150px] overflow-auto m-auto mt-10 rounded-sm text-zinc-700/80 bg-white/90">
+
+                <p class="p-2 leading-8">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ut facere amet, ratione vitae labore
+                    mollitia cumque quae. Amet tenetur illum harum natus similique laboriosam unde, est accusamus
+                    asperiores! Asperiores, ullam fugiat dicta officiis natus at dolore repellat consequatur provident,
+                    veritatis hic optio magni voluptatibus nulla nihil accusamus? Nam, aspernatur.
+                </p>
+            </div>
+
+            <div
+                class="flex items-center justify-center gap-x-10 childe:w-[130px] childe:h-[40px] childe:my-10 childe:flex childe:items-center childe:justify-center childe:rounded-sm">
+                <a class="font-bold bg-blue-600 text-zinc-100" href="">
+                    RESUME
+                </a>
+                <a class="border font-bold text-zinc-700 border-zinc-700/90" href="">
+                    PROJECTS
+                </a>
+            </div>
+
+            <div class="bg-zinc-50">
+
+                <div class="flex items-center justify-center gap-x-10 py-2 mt-5">
+
+                    <a href="#"><img class="w-[25px] h-[25px]" src="./imgs/facebook.png" alt=""></a>
+
+                    <a href="#"><img class="w-[25px] h-[25px]" src="./imgs/twitter.png" alt=""></a>
+
+                    <a href="#"><img class="w-[25px] h-[25px]" src="./imgs/linkedin.png" alt=""></a>
+
+                    <a href="#"><img class="w-[25px] h-[25px]" src="./imgs/github.png" alt=""></a>
+                </div>
+
+                <div class="flex items-center justify-around text-xs px-3 py-2 childe:text-zinc-700/80">
+                    <a href="">33-55-44-202</a>
+                    <a href="">info@resumeCvotg.com</a>
+                    <a href="">+1-123-456-7890</a>
+                </div>
+
+            </div>
+
+        </main>
+
+        <footer class="grid text-center leading-5 pt-40 text-xs childe:text-zinc-700/80">
+
+            <h3>
+                Develop by Bardia 2024
+            </h3>
+            <p>
+                GutHub address > @bardiaspvtext
+            </p>
+
+        </footer>
+
+    </div>
+</body>
+
+</html>
