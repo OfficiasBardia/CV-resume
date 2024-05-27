@@ -1,6 +1,10 @@
+/* Class Tailwind */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Base */
 
 @layer base {
     * {
@@ -11,5 +15,38 @@
         font-family: "'Lato', sans-serif";
         font-style: normal;
         src: url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+    }
+}
+
+/* Add the class */
+@layer components {
+    /* Add bar class to Tailwindcss */
+
+
+    .overflowSetting {
+        --sb-track-color: #ece7e7;
+        --sb-thumb-color: #e2ef31;
+        --sb-size: 10px;
+    }
+
+    .overflowSetting::-webkit-scrollbar {
+        width: var(--sb-size)
+    }
+
+    .overflowSetting::-webkit-scrollbar-track {
+        background: var(--sb-track-color);
+        border-radius: 3px;
+    }
+
+    .overflowSetting::-webkit-scrollbar-thumb {
+        background: var(--sb-thumb-color);
+        border-radius: 3px;
+        border: 1px solid #efefef;
+    }
+
+    @supports not selector(::-webkit-scrollbar) {
+        .overflowSetting {
+            scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+        }
     }
 }

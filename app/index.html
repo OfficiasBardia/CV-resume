@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/app/app.css">
+    <link rel="stylesheet" href="../app/app.css">
     <title>Cv With tailwindcss</title>
 </head>
 
@@ -27,8 +27,9 @@
 
         <div class="flex items-center justify-between p-5">
 
+            <!-- Your Firstname & Lastname -->
             <div>
-                <h1 class="text-xl text-zinc-700 font-bold">Lorem (Name)</h1>
+                <h1 class="text-xl text-zinc-700 font-bold">Jessica Barden</h1>
             </div>
             <div>
                 <a href="#">
@@ -42,20 +43,19 @@
         </div>
 
         <main class="container  w-[90%] p-0 m-auto mt-5 rounded-md shadow-2xl bg-yellow-200/60">
-
             <div class="pt-10">
                 <img class="w-[150px] h-[150px] rounded-full m-auto border-[7px] border-zinc-100"
-                    src="/app/imgs/progile.webp" alt="img">
+                    src="../app/imgs/progile.webp" alt="img">
             </div>
-
+            <!-- Your Name -->
             <div class="text-center pt-5">
-                <h2 class="text-zinc-700 text-lg">
-                    I'm (Name)
-                </h2>
+                <h2 class="text-zinc-700 text-lg">Hi I'm Jessica</h2>
             </div>
 
-            <div class="w-[90%] h-[150px] overflow-auto m-auto mt-10 rounded-sm text-zinc-700/80 bg-white/90">
+            <div
+                class="w-[90%] h-[150px] overflowSetting overflow-auto m-auto mt-10 rounded-sm text-zinc-700/80 bg-white/90">
 
+                <!-- Discrition -->
                 <p class="p-2 leading-8">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ut facere amet, ratione vitae labore
                     mollitia cumque quae. Amet tenetur illum harum natus similique laboriosam unde, est accusamus
@@ -66,10 +66,12 @@
 
             <div
                 class="flex items-center justify-center gap-x-10 childe:w-[130px] childe:h-[40px] childe:my-10 childe:flex childe:items-center childe:justify-center childe:rounded-sm">
-                <a class="font-bold bg-blue-600 text-zinc-100" href="">
+                <a class="font-bold bg-blue-600 text-zinc-100 lg:hover:bg-blue-500 lg:transition-all lg:duration-300"
+                    href="#">
                     RESUME
                 </a>
-                <a class="border font-bold text-zinc-700 border-zinc-700/90" href="">
+                <a class="border font-bold text-zinc-700 border-zinc-700/90 lg:hover:bg-yellow-300 lg:transition-all lg:duration-300"
+                    href="#">
                     PROJECTS
                 </a>
             </div>
@@ -86,7 +88,7 @@
 
                     <a href="#"><img class="w-[25px] h-[25px]" src="./imgs/github.png" alt=""></a>
                 </div>
-
+                <!-- Addres -->
                 <div class="flex items-center justify-around text-xs px-3 py-2 childe:text-zinc-700/80">
                     <a href="">33-55-44-202</a>
                     <a href="">info@resumeCvotg.com</a>
@@ -98,7 +100,7 @@
         </main>
 
         <footer class="grid text-center leading-5 pt-40 text-xs childe:text-zinc-700/80">
-
+            <!-- Programmer & Developer -->
             <h3>
                 Develop by Bardia 2024
             </h3>
